@@ -1,0 +1,356 @@
+.navbar-brand {
+    /* Estilos para la marca */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-item {
+    /* Estilos para los elementos */
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-link {
+    /* Estilos botón Navbar */
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    /* Estilos al pasar el mouse */
+    background-color: #333;
+    color: #fff;
+    border-color: #fff;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Source Sans Pro';
+
+}
+
+.inicioparrafo {
+    /* Estilos párrafo */
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #888;
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    text-decoration: none;
+}
+
+.button {
+    /* Estilos botón */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #57927c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    /* Color oscuro al pasar el mouse */
+    background-color: #11301e;
+}
+
+.button.large {
+    /* Estilo botón grande */
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+@media (max-width: 767px) {
+    /* Estilo contenedor */
+    .image-text-container {
+        display: flex;
+        flex-direction: column;
+    }
+    /* Orden en móviles */
+    .image-text-container .col-md-4 {
+        order: 1;
+    }
+}
+
+#carouselExampleDark h5 {
+    /* Estilo h5 dentro del carrusel */
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #333;
+}
+
+#carouselExampleDark p {
+    /* Estilo párrafo dentro del carrusel */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #1d1818;
+}
+
+#text1 {
+    /* Estilo 1er texto */
+    cursor: zoom-in;
+}
+#text2{
+    /* Estilo 2do texto */
+    padding: 10px; 
+    background-color: #f4f4f4; 
+    display: none; 
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#text3 {
+    /* Estilo 3er texto */
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    cursor: zoom-in;
+}
+
+#text4 {
+    /* Estilo 4to texto */
+    padding: 10px; 
+    background-color: #f4f4f4; 
+    display: none; 
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    overflow: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+    /* Estilo texto, email y textarea */
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #57927c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(87, 146, 124, 0.5);
+}
+
+.actions {
+    /* Estilos de acciones */
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions .style1,
+.actions .style2 {
+    background-color: #57927c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.actions .style1:hover,
+.actions .style2:hover {
+    background-color: #11301e;
+}
+
+.actions .style2 {
+    background-color: #c4c4c4;
+}
+
+.actions .style2:hover {
+    background-color: #8b8b8b;
+}
+
+
+.btn-primary {
+    /* Estilos botón primario */
+    background-color: #57927c;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+     /* Color hover */
+    background-color:
+}
+
+.detalles {
+    display: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 280%;
+    left: 10%;
+    z-index: 2;
+}
+
+.img {
+    /* Estilo imagen */
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.justified-text {
+    /* Justificar el texto */
+    text-align: justify;
+}
+
+.carousel-inner img {
+    /* Estilo imágenes carrusel */
+    height: 500px;
+    object-fit: cover;
+}
+
+#top {
+    /* Estilos para la sección superior */
+    padding: 10em 0 10em 0;
+    text-align: left;
+}
+
+#top .img {
+    /* Estilo imagen sección superior */
+    border-radius: 100%;
+    width: 20em;
+    height: 20em;
+    margin: 0;
+}
+
+
+#top h1 {
+    /* Estilo h1 sección superior */
+    margin-top: 0.35em;
+}
+
+#top p {
+    /* Estilo p sección superior */
+    font-size: 1.5em;
+    line-height: 1.75em;
+}
+
+#top p a {
+    color: inherit;
+}
+
+#contact footer {
+    font-size: 0.9em;
+}
+
+#top {
+    text-align: center;
+    padding: 5em 0;
+}
+
+.row>.col-12-medium {
+    width: 100%;
+}
+
+#mylightbox {
+    /* Estilos lightbox */
+    image-resolution: width 800;
+    overflow: hidden;
+}
+
+.wrapper {
+    background-image: url("assets/img/bg.png");
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    padding: 8em 0 8em 0;
+    text-align: center;
+}
+
+.wrapper.style1 {
+    /* Estilos contenedor */
+    background-image: none;
+    background-color: #fff;
+}
+
+.wrapper.style2 {
+    /* Estilos contenedor */
+    background-color: #fafafa;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.wrapper.style3 {
+    /* Estilos contenedor */
+    background-color: #f4f4f4;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.wrapper.style4 {
+    /* Estilos contenedor */
+    background-color: #303030;
+    color: #999;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper.style4 h1,
+.wrapper.style4 h2,
+.wrapper.style4 h3,
+.wrapper.style4 h4,
+.wrapper.style4 h5,
+.wrapper.style4 h6 {
+    color: #fff;
+}
+
+.map-container {
+    /* Estilo mapa */
+    border-radius: 10px;
+}
+
+#posteo {
+    /* Estilo posteo */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#previewImage {
+    /* Estilo imagen previa */
+    max-width: 100%;
+    height: auto;
+    border: 2px dashed #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#textInput {
+    /* Estilo campo texto */
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
